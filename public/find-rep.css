@@ -1,0 +1,88 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body, select, button {
+    font-size: 14px;
+    color: #444;
+}
+
+div.main {
+    margin: 20px;
+}
+
+h1 {
+    color: deepskyblue;
+    font-weight: 400;
+}
+
+h2 {
+    color: #777;
+    font-weight: 400;
+}
+
+h2 span {
+    color: deepskyblue;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+
+select {
+    margin: 0 20px 0 6px;
+}
+
+button {
+    padding: 4px 14px;
+}
+
+.infos {
+    width: 360px;
+    float: left;
+}
+
+.infos.list {
+    margin-right: 24px;
+}
+
+.infos.list div {
+    display: inline-block;
+}
+
+.infos.info div {
+    margin-bottom: 20px;
+}
+
+.gray-row {
+    background-color: #f7f7f7;
+}
+
+.gray-row span {
+    color: #afafaf;
+    margin-right: 4px;
+}
+
+.name-field {
+    width: 270px;
+}
+
+.party-field {
+    width: 70px;
+}
+
+.name-field.title, .party-field.title {
+    color: #999;
+}
+
+.padded {
+    padding: 12px 8px;
+}
+
+.rep-line {
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;
+}
